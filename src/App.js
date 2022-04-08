@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+import { RiInstagramFill } from "react-icons/ri";
+import {ImLinkedin } from "react-icons/im";
+import {BsGithub } from "react-icons/bs";
+import React, { useEffect } from "react";
+import { gsap } from "gsap";
 import './App.css';
+import Nav from "./components/nav/Nav"
+import Main from "./components/pages/Main";
 
 function App() {
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Main/>
     </div>
   );
 }

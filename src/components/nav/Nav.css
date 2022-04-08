@@ -1,0 +1,37 @@
+@font-face{
+    font-family:"segoesc";
+    src: url("../../assets/fonts/segoesc.ttf") format("truetype");
+    font-style: normal;
+    font-weight: none;
+    }
+
+.name{
+    font-size: 1.4rem;
+    color: #fde1be;
+    font-family:"segoesc"; 
+    padding-top: 5px;
+    width: 25vw;
+    text-align: center;
+  }
+.slogan{
+  color: #fde1be;
+  font-size: 0.7rem;
+  width: 25vw;
+ }
+ .navlink {
+    display: inline-block;
+    color: #fde1be;
+    font-weight: 500;
+ }
+
+ @media screen and (max-width:700px){
+  .name{
+    font-size: 1.3rem;
+    text-align: center;
+    width: 60vw;
+   }
+  .slogan{
+    text-align: center;
+    width: 60vw;
+  }
+}
