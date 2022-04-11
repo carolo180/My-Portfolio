@@ -17,6 +17,7 @@ import "./About.css"
 const About = () => {
   return (
     <div className='About'>
+      
     
          <div className='flex flex-col md:flex-row md:h-screen bg-[#1B001C]'>
            

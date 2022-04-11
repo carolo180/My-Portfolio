@@ -25,6 +25,16 @@
     border-width: 5px;
     border-image-slice: 30%;
   }
+  .blur {
+    width: 120%;
+    margin-left: -10%;
+    height: 150px;
+    background-color: #030000;
+    position: absolute;
+    bottom: -180px;
+    filter: blur(40px);
+    z-index: 999;
+}
   
   .bigname{
     color: aliceblue;
@@ -68,7 +78,25 @@
     font-size: 2rem;
     margin-right: 1rem;
     cursor: pointer;
+    animation: float 5s ease-in-out infinite;
   }
+  @keyframes float{
+    0%{
+      transform: translateY(0);
+    }
+   50%{
+      transform: translateY(-15px);
+    }
+    100%{
+      transform: translateY(0);
+    }
+  }
+  .line{
+     animation-delay: 1s;
+  }
+  .circle-line{
+    animation-delay: 2s;
+ }
   .socialmedia{
     display: flex;
   }

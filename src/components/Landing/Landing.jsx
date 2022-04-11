@@ -7,8 +7,10 @@ import {BsGithub } from "react-icons/bs";
 
 
 const Landing = () => {
+
     
     useEffect(() => {
+      
         let timeline = gsap.timeline();
     
         timeline.to(".imgwrapper", {
@@ -58,15 +60,16 @@ const Landing = () => {
   
      <div className='box hide'>
        <p className="full">Full Stack Developer<span className="city">Bogotá-Colombia</span></p>
+     
        <ul className='socialmedia'>
          <li>
-           <a target='_blank' href='https://www.instagram.com/loaizacarolina/saved/?hl=es-la'><RiInstagramFill className="socialicon"/></a>
+           <a target='_blank' href='https://www.instagram.com/loaizacarolina/saved/?hl=es-la'><RiInstagramFill className="socialicon line"/></a>
          </li>
          <li>
-           <a target='_blank' href='https://www.linkedin.com/in/carolina-loaiza-40631a215/'><ImLinkedin className="socialicon"/></a>
+           <a target='_blank' href='https://www.linkedin.com/in/carolina-loaiza-40631a215/'><ImLinkedin className="socialicon circle-line"/></a>
          </li>
          <li>
-           <a target='_blank' href='https://github.com/carolo180'><BsGithub className="socialicon"/></a>
+           <a target='_blank' href='https://github.com/carolo180'><BsGithub className="socialicon line"/></a>
          </li>
        </ul>
      </div>

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Footer.css"
-import waves from "../../assets/images/waves.svg"
 import { RiWhatsappFill } from "react-icons/ri";
+import { MdMarkunreadMailbox } from "react-icons/md";
 import Footer2 from "../footer2/Footer2";
 
 const Footer = () => {
@@ -24,7 +24,7 @@ const Footer = () => {
         setValues({...initialStateValues})
          console.log(values)
     
-         let named = values.nombre
+         let named = values.names
          let mails = values.mail
          let phones = values.phone
          let message = values.msn
@@ -41,7 +41,8 @@ const Footer = () => {
 
   return (
     <div className='footer'>
-          <form id="formu_contacto" action="" className="form-box"  autocomplete="off" onSubmit={e => { e.preventDefault(); goToWhatsapp(); }}>
+          <form id="formu_contacto" action="https://formsubmit.co/caponeris1@gmail.com" 
+          method="POST" className="form-box"  autocomplete="off">
 					
                     <div className="mahi_holder">
                         <div className="container">
@@ -52,13 +53,14 @@ const Footer = () => {
                                     <div className="sectform">
                                     <div id="campoNom" className="col-3 input-effect">
                                       <input className="effect-16" 
-                                      type="text" 
+                                     
                                       placeholder="Full Names" 
                                       required="required" 
                                       name="names" 
                                       id="names" 
                                       onChange={handleInputChange}
-                                      value={values.names}/>
+                                      value={values.names}
+                                      />
                                     <span className="focus-border"/>
                                     <div className="feedback"></div>
                                    </div>
@@ -81,7 +83,7 @@ const Footer = () => {
             
                                 <div id="campoCelu" className="col-3 input-effect">
                                       <input className="effect-16"
-                                       type="text"
+                                      
                                         placeholder="Write Your Message" 
                                         required="required" 
                                         name="msn"
@@ -95,12 +97,17 @@ const Footer = () => {
                              </div>
                         </div>
                     </div>
-                    <div id="boton_enviar" className="suscribirse">
-                        <button  type="submit">Send Information <RiWhatsappFill className="iconwhats"/></button>
-                      </div>	
+                        <div id="boton_enviar" className="suscribirse">
+                            <button onClick={e => { e.preventDefault(); goToWhatsapp(); }}>
+                                Send it by<span className="invisible">-</span>
+                                 <RiWhatsappFill className="iconwhats"/></button> 
+
+                            <button type="submit">Send it by E-mail<span className="invisible">-</span>
+                            <MdMarkunreadMailbox className="iconemail"/></button>
+                        </div>	
                 </form>	
-              
-       <Footer2 />
+               <Footer2 />
+     
     </div>
   )
 }
