@@ -20,12 +20,12 @@ This project was generated with
 
 * [Tailwind](https://tailwindcss.com/)
   
-  <h2 style="text-align:center;color: purple">Deploy</h2>
+  <h2 style="text-align:center;color: purple">Repository</h2>
   *You can clone the public repository on: 
 
     [My Portfolio](https://github.com/carolo180/My-Portfolio)
 
-     <h2 style="text-align:center;color: purple">Repository</h2>
+     <h2 style="text-align:center;color: purple">Deploy</h2>
   *You can clone the public repository on: 
 
     [My Portfolio](https://github.com/carolo180/My-Portfolio.git)
@@ -44,7 +44,7 @@ This project was generated with
 On this page there is a dynamic navigation bar that allows easy navigation through the website, you will also find a social network section, and the animations make it more striking. </p>
 
 <h2 style="text-align:center;color: purple">About</h2>         
-  <img src="./src/assets/images/about.png.png" width="650" style="display:block; margin:auto">             
+  <img src="./src/assets/images/about.png" width="650" style="display:block; margin:auto">             
  <p>Here you can find something about myself and also download my curriculum vitae.</p>
 
   <h2 style="text-align:center;color: purple">Work</h2>         
