@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+<img src="./src/assets/images/logo.png" width="350" style="display:block; margin:auto" >
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2 style="text-align:center; 
+color: purple" >
+My Portfolio"
+</h2>
 
-## Available Scripts
+<h3 style="text-align:justify;"><strong>With this portfolio, i hope to let you know my skills and strengths, here you can see some of my projects and you can easily contact me.   !</strong></h3><br>
 
-In the project directory, you can run:
+This project was generated with 
+* [Create React App](https://github.com/facebook/create-react-app).
+  
+* [React Icons](https://react-icons.github.io/react-icons/)
+  
+* [React Player](https://www.npmjs.com/package/react-player)
+  
+* [Slick Carousel](https://www.npmjs.com/search?q=slick-carousel)
 
-### `npm start`
+* [Styled Components](https://styled-components.com/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* [Tailwind](https://tailwindcss.com/)
+  
+  <h2 style="text-align:center;color: purple">Deploy</h2>
+  *You can clone the public repository on: 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    [My Portfolio](https://github.com/carolo180/My-Portfolio)
 
-### `npm test`
+     <h2 style="text-align:center;color: purple">Repository</h2>
+  *You can clone the public repository on: 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    [My Portfolio](https://github.com/carolo180/My-Portfolio.git)
+   
+  * ### npm i or npm install: To install all dependices and libraries.
 
-### `npm run build`
+     
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  *  ### npm start: Runs the app in the development mode to view it in your browser.
+    
+    
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  <h2 style="text-align:center;color: purple">Landing Page</h2>         
+  <img src="./src/assets/images/landing.png" width="700" style="display:block; margin:auto">             
+ <p>
+On this page there is a dynamic navigation bar that allows easy navigation through the website, you will also find a social network section, and the animations make it more striking. </p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h2 style="text-align:center;color: purple">About</h2>         
+  <img src="./src/assets/images/about.png.png" width="650" style="display:block; margin:auto">             
+ <p>Here you can find something about myself and also download my curriculum vitae.</p>
 
-### `npm run eject`
+  <h2 style="text-align:center;color: purple">Work</h2>         
+  <img src="./src/assets/images/work.png" width="650" style="display:block; margin:auto">             
+ <p>
+On this page you can check for some of my cool projects. </p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<h2 style="text-align:center;color: purple">Characters</h2>         
+  <img src="./src/assets/images/contact.png" width="650" style="display:block; margin:auto">             
+ <p>There is a contact form that sends the data directly to whatsapp .</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
