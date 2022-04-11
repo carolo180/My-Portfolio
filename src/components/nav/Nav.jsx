@@ -1,7 +1,10 @@
 import React, {useState} from 'react'
+import {Link} from "react-scroll"
+import { NavLink } from "react-router-dom";
 import "./Nav.css"
 import { NavBarContainer, NavBarWrapper, NavLogo, Menu, MenuItem, IconNav } from './NavBarElement'
-import { FaBars } from 'react-icons/fa';
+import { FaBars, FaTimes } from 'react-icons/fa';
+
 
 const Nav = () => {
 
@@ -22,19 +25,29 @@ const Nav = () => {
         </NavLogo>
 
         <IconNav onClick={()=>changeMenu()}>
-          <FaBars />
+          {
+            click ? <FaTimes /> :  <FaBars />
+          }
         </IconNav>
       
         <Menu click={click}>
+          
           <MenuItem>
-          <a href='#' className='navlink'>About</a>
+          <Link to={`imgbox`} smooth={true} offset={-70} duration={500}> <span className='navlink' onClick={()=>changeMenu()}>Home</span></Link>
+          </MenuItem>
+       
+          <MenuItem>
+          <Link to={`text-shadow`} smooth={true} offset={-70} duration={500}> <span className='navlink' onClick={()=>changeMenu()}>About</span></Link>
+         
           </MenuItem>
           <MenuItem>
-          <a href='#' className='navlink'>Work</a>
+          <Link to={`carru`} smooth={true} offset={-70} duration={500}> <span className='navlink' onClick={()=>changeMenu()}>Work</span></Link>
           </MenuItem>
           <MenuItem>
-          <a href='#' className='navlink'>Contact</a>
+          <Link to={`box_form`} smooth={true} offset={-70} duration={500}> <span className='navlink' onClick={()=>changeMenu()}>Contact</span></Link>
           </MenuItem>
+
+        
         </Menu>
      
       </NavBarWrapper>

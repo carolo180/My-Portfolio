@@ -1,0 +1,50 @@
+:root {
+    --blackish: #222;
+    --whiteish: #e5e5e5;
+    --red:  #ff5e56;
+    --yellow: #ffbd2e;
+    --green: #27c93f;
+    --backgroundSize: 300px;
+  }
+#rounded{
+  background-image: url(https://img.freepik.com/free-vector/seamless-pattern_1159-5086.jpg?size=626&ext=jpg);
+  background-size: var(--backgroundSize);
+  color: var(--whiteish);
+  display: grid;
+  place-items: center;
+  animation: movingBackground 8s linear infinite;
+  width: 14.6rem;
+  height: 14.9rem;
+  border-radius: 100%;
+}
+#rounded:after {
+    content: '';
+    position: absolute;
+    width: 14.6rem;
+    height: 14.9rem;
+    background:linear-gradient(to left, #de3affbb,#03cdff6e, #9a03ff9d);
+    z-index: 1;
+    border-radius: 100%;
+  }
+#text-shadow{
+  color: #f092f3;
+  font-size: 2rem;
+  min-height: 8rem;
+ display: flex;
+ align-items: flex-end;
+ justify-content: center;
+    text-shadow: 0 0 10px #de4be0, 0 0 35px #de4be0, 0 0 40px #de4be0, 0 0 210px #de4be0;
+}
+#cvbutton{
+  border-image-source: linear-gradient(to left, #2ae3fc, #9a03ff);
+  border-style: solid;
+  border-width: 3px;
+  border-image-slice: 30%;
+}
+#cvbutton:hover{
+    box-shadow: 0 0 1px #de4be0, 0 0 1px #de4be0, 0 0 2px #de4be0, 0 0 40px #de4be0;
+}
+  @keyframes movingBackground {
+    from { background-position: 0 0;}
+    to {background-position: var(--backgroundSize) var(--backgroundSize);}
+  }

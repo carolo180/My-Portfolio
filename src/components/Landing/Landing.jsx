@@ -1,9 +1,10 @@
+import React, { useEffect } from "react";
+import { gsap } from "gsap";
 import "./Landing.css"
 import { RiInstagramFill } from "react-icons/ri";
 import {ImLinkedin } from "react-icons/im";
 import {BsGithub } from "react-icons/bs";
-import React, { useEffect } from "react";
-import { gsap } from "gsap";
+
 
 const Landing = () => {
     
@@ -56,16 +57,16 @@ const Landing = () => {
     <span className="scroll hide"></span>
   
      <div className='box hide'>
-       <p>Full Stack Developer</p>
+       <p className="full">Full Stack Developer<span className="city">Bogotá-Colombia</span></p>
        <ul className='socialmedia'>
          <li>
-           <a href='#'><RiInstagramFill className="socialicon"/></a>
+           <a target='_blank' href='https://www.instagram.com/loaizacarolina/saved/?hl=es-la'><RiInstagramFill className="socialicon"/></a>
          </li>
          <li>
-           <a href='#'><ImLinkedin className="socialicon"/></a>
+           <a target='_blank' href='https://www.linkedin.com/in/carolina-loaiza-40631a215/'><ImLinkedin className="socialicon"/></a>
          </li>
          <li>
-           <a href='#'><BsGithub className="socialicon"/></a>
+           <a target='_blank' href='https://github.com/carolo180'><BsGithub className="socialicon"/></a>
          </li>
        </ul>
      </div>

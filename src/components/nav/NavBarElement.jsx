@@ -2,14 +2,15 @@ import styled from "styled-components";
 
 export const NavBarContainer = styled.div`
        height: 70px;
-       position:sticky;
+       position:fixed;
        top:0;
        z-index:99;
-       background-color:transparent;
+       background: transparent;
        width: 100vw;
 
        @media screen and (max-width:960px){
-        height: 90px;
+        height: 11%;
+        background: #7a3030;
        }
 `;
 export const NavBarWrapper = styled.div`
@@ -54,7 +55,7 @@ export const Menu = styled.ul`
             width:100%;
             height:100vh;
             position:absolute;
-            top:150px;
+            top:100px;
             left:${({click}) =>(click ? "0" : "-100%")};
             flex-direction:column;
             justify-content:flex-start;
@@ -73,6 +74,7 @@ export const MenuItem = styled.li`
         font-weight: 400;
         letter-spacing: 1px;
         text-gradient(to left, #d92afc, #9a03ff);
+        cursor: pointer;
 
         @media screen and (max-width:700px){
             margin-block-start:2em;

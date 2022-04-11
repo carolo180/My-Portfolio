@@ -1,18 +1,15 @@
-import { RiInstagramFill } from "react-icons/ri";
-import {ImLinkedin } from "react-icons/im";
-import {BsGithub } from "react-icons/bs";
-import React, { useEffect } from "react";
-import { gsap } from "gsap";
 import './App.css';
-import Nav from "./components/nav/Nav"
 import Main from "./components/pages/Main";
+import {Route, Routes, useLocation} from "react-router-dom";
+import ScrollToTop from './components/scroll/ScrollToTop';
+import Footer2 from "./components/footer2/Footer2"
 
 function App() {
   
   return (
     <div className="App">
       <Main/>
-    </div>
+   </div>
   );
 }
 
