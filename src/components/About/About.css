@@ -6,6 +6,16 @@
     --green: #27c93f;
     --backgroundSize: 300px;
   }
+  .blur {
+    width: 100%;
+    margin-left: 0%;
+    height: 140px;
+    background-color: #1B001C;
+    position: absolute;
+    bottom: -160px;
+    filter: blur(40px);
+    z-index: 998;
+}
 #rounded{
   background-image: url(https://img.freepik.com/free-vector/seamless-pattern_1159-5086.jpg?size=626&ext=jpg);
   background-size: var(--backgroundSize);

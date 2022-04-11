@@ -4,7 +4,7 @@ export const NavBarContainer = styled.div`
        height: 70px;
        position:fixed;
        top:0;
-       z-index:99;
+       z-index:999;
        background: transparent;
        width: 100vw;
 

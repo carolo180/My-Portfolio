@@ -17,7 +17,7 @@ import "./About.css"
 const About = () => {
   return (
     <div className='About'>
-      
+           <div class="blur"></div>
     
          <div className='flex flex-col md:flex-row md:h-screen bg-[#1B001C]'>
            
