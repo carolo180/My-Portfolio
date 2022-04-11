@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.707ef7a8.css",
+    "main.js": "/My-Portfolio/static/js/main.e93cb224.js",
+    "static/media/apicovid.mp4": "/My-Portfolio/static/media/apicovid.1a5331232929e45f5369.mp4",
+    "static/media/fortaleza.mp4": "/My-Portfolio/static/media/fortaleza.fa7eab18d1aaa6c48a83.mp4",
+    "static/media/crud.mp4": "/My-Portfolio/static/media/crud.e209e7b0a530c534a766.mp4",
+    "static/media/firebasecrud.mp4": "/My-Portfolio/static/media/firebasecrud.75a557970665b6de6c02.mp4",
+    "static/media/segoesc.ttf": "/My-Portfolio/static/media/segoesc.d41101786803c9bb5029.ttf",
+    "static/media/walefigma.png": "/My-Portfolio/static/media/walefigma.14af69ae551001491ae2.png",
+    "static/media/react.png": "/My-Portfolio/static/media/react.283f9f863581bb226e65.png",
+    "static/media/selfie.png": "/My-Portfolio/static/media/selfie.9249da993edcbf4bf597.png",
+    "static/media/nodejs.png": "/My-Portfolio/static/media/nodejs.f1d5b02e93d0b03f4c6d.png",
+    "static/media/frame.pdf": "/My-Portfolio/static/media/frame.3c3a6f26d1b90158bd22.pdf",
+    "static/media/firebase.png": "/My-Portfolio/static/media/firebase.6f31ddac76d754746114.png",
+    "static/media/mysqle.png": "/My-Portfolio/static/media/mysqle.7d8d571e5629923eaf74.png",
+    "static/media/php.png": "/My-Portfolio/static/media/php.3fc15cf443a81ef2d0a4.png",
+    "static/media/redux.png": "/My-Portfolio/static/media/redux.b3b939c66aecf7d53967.png",
+    "static/media/css-3.png": "/My-Portfolio/static/media/css-3.463e319bad8e0edf1ef7.png",
+    "static/media/js.png": "/My-Portfolio/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/waves.svg": "/My-Portfolio/static/media/waves.b745bebb43a29bdbf1e0e145ffef08b7.svg",
+    "static/media/slick.svg": "/My-Portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/My-Portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/My-Portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/My-Portfolio/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/My-Portfolio/index.html",
+    "main.707ef7a8.css.map": "/My-Portfolio/static/css/main.707ef7a8.css.map",
+    "main.e93cb224.js.map": "/My-Portfolio/static/js/main.e93cb224.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.707ef7a8.css",
+    "static/js/main.e93cb224.js"
+  ]
+}
