@@ -129,8 +129,8 @@
 
 .buttons-icons li a:hover {
   background: rgb(253, 253, 253);
-  -webkit-transition: .2s;
-  transition: .2s;
+  -webkit-transition: 1s;
+  transition: 1s;
   color: #4d0c4d;
   box-shadow: 0 0 1px #de4be0, 0 0 1px #de4be0, 0 0 2px #de4be0, 0 0 40px #de4be0;
 }

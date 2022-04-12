@@ -23,6 +23,10 @@
     color: #fde1be;
     font-weight: 500;
  }
+ .navlink > .active {
+  border-bottom: 1px solid rgb(5, 247, 186);
+  
+}
 
  @media screen and (max-width:700px){
   .name{

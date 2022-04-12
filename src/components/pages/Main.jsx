@@ -13,6 +13,7 @@ const Main = () => {
       <div className='first_view'>
        <Nav />
        <Landing />
+       
       </div>
         <About />
         <Work />

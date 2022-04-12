@@ -26,7 +26,6 @@ const Footer = () => {
     
          let named = values.names
          let mails = values.mail
-         let phones = values.phone
          let message = values.msn
          
        

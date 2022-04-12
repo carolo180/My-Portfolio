@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {Link} from "react-scroll"
+import { Link, animateScroll as scroll } from "react-scroll";
 import { NavLink } from "react-router-dom";
 import "./Nav.css"
 import { NavBarContainer, NavBarWrapper, NavLogo, Menu, MenuItem, IconNav } from './NavBarElement'
@@ -32,19 +32,20 @@ const Nav = () => {
       
         <Menu click={click}>
           
-          <MenuItem>
-          <Link to={`imgbox`} smooth={true} offset={-70} duration={500}> <span className='navlink' onClick={()=>changeMenu()}>Home</span></Link>
+          <MenuItem className='navlink'>
+          <Link activeClass="active" to={`imgbox`} spy={true} smooth={true} offset={-90} duration={900} > <span className='navlink' onClick={()=>changeMenu()}>Home</span></Link>
           </MenuItem>
        
-          <MenuItem>
-          <Link to={`text-shadow`} smooth={true} offset={-70} duration={500}> <span className='navlink' onClick={()=>changeMenu()}>About</span></Link>
-         
+          <MenuItem className='navlink'>
+          <Link activeClass="active" to={`text-shadow`} spy={true} smooth={true} offset={-90} duration={900} > <span className='navlink' onClick={()=>changeMenu()}>About</span></Link>
           </MenuItem>
-          <MenuItem>
-          <Link to={`carru`} smooth={true} offset={-70} duration={500}> <span className='navlink' onClick={()=>changeMenu()}>Work</span></Link>
+          
+          <MenuItem className='navlink'>
+          <Link activeClass="active" to={`carru`} spy={true} smooth={true} offset={-90} duration={900} > <span className='navlink'  onClick={()=>changeMenu()}>Work</span></Link>
           </MenuItem>
-          <MenuItem>
-          <Link to={`box_form`} smooth={true} offset={-70} duration={500}> <span className='navlink' onClick={()=>changeMenu()}>Contact</span></Link>
+
+          <MenuItem className='navlink'>
+          <Link activeClass="active" to={`box_form`}  spy={true} smooth={true} offset={-90} duration={900} > <span className='navlink'  onClick={()=>changeMenu()}>Contact</span></Link>
           </MenuItem>
 
         
@@ -59,23 +60,3 @@ const Nav = () => {
 }
 
 export default Nav
-/*
-   <nav className="hide">
-        <div className='logo'>
-        <h2 className="name">Surfing Whales</h2>
-        <p className='slogan'>Code & Creative Lab</p>
-        </div>
-     
-      <ul>
-        <li className='navlink'>
-          <a href='#'>work</a>
-        </li>
-        <li className='navlink'>
-          <a href='#'>About</a>
-        </li>
-        <li className='navlink'>
-          <a href='#'>Contact</a>
-        </li> 
-      </ul>
-    </nav>
-    */
