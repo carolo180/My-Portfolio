@@ -251,10 +251,10 @@
      linear-gradient(#fff 0 0);
  }
 
-.carousel .slick-prev:hover, .carousel .slick-prev:focus, .carousel .slick-next:hover, .carousel .slick-next:focus {
+.carousel .slick-prev:hover, .carousel .slick-prev:focus, .carousel .slick-next:hover {
   color: #fff;
-  outline: none;
-  background: rgb(3, 3, 3);
+  outline:auto;
+  font-size: 0.5rem;
 }
 
 .carousel .slick-prev:before, .carousel .slick-next:before {
@@ -303,6 +303,13 @@
   .carousel .slick-prev, .carousel .slick-next {
     width: 20px;
     height: 20px;
- 
-   }
+    display: none;
+    }
+    .carousel .slick-next{
+      right: -22px;
+    }
+    .carousel .slick-prev{
+      left: -27px;
+    }
+   
 }

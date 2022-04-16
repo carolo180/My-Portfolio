@@ -9,7 +9,7 @@ import mongo from "../../assets/images/mongo.png"
 import node from "../../assets/images/nodejs.png"
 import redux from "../../assets/images/redux.png"
 import firebase from "../../assets/images/firebase.png"
-import cv from "../../assets/images/frame.pdf"
+import cv from "../../assets/images/resume.pdf"
 import { GiCloudDownload } from 'react-icons/gi';
 
 import "./About.css"
@@ -27,10 +27,11 @@ const About = () => {
           <p className='text-lg text-justify text-silver md:pl-4 pt-0'>
              I am a development lover, 
              my passion is solving problems using design and code.
-             i start to learned for fun and did a very cool project on.
+             I start to learned for fun and did a very cool project on.
              I really like interact with new tools and learn new skills,
-             keeping me engaged in a new career. 
-             althought dont like describe myself by the work i have done,
+             right now i am focus to get a very cool team to keeping me engaged
+              in a new career. 
+             Althought I dont like describe myself by the work i have done,
              i prefer define myself by the work i want to do,
              i prefer to keep learning, continue challenging myself,
              and do interesting things that matters.</p>

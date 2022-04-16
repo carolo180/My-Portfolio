@@ -5,6 +5,7 @@ const Footer2 = () => {
   return (
     <div>
          <img src={waves} className="waves" />
+         <h6 className='rights'>&#169;Surfing Whales - All rights reserved</h6>
     </div>
   )
 }
