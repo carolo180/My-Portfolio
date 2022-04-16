@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.49b349ea.css",
-    "main.js": "/My-Portfolio/static/js/main.c654c58d.js",
+    "main.css": "/My-Portfolio/static/css/main.c0a7eaf3.css",
+    "main.js": "/My-Portfolio/static/js/main.5a8bc9c3.js",
     "static/media/apicovid.mp4": "/My-Portfolio/static/media/apicovid.1a5331232929e45f5369.mp4",
     "static/media/logos.png": "/My-Portfolio/static/media/logos.040ba9f9b2b3cc612adf.png",
     "static/media/fortaleza.mp4": "/My-Portfolio/static/media/fortaleza.fa7eab18d1aaa6c48a83.mp4",
@@ -10,8 +10,8 @@
     "static/media/segoesc.ttf": "/My-Portfolio/static/media/segoesc.d41101786803c9bb5029.ttf",
     "static/media/react.png": "/My-Portfolio/static/media/react.283f9f863581bb226e65.png",
     "static/media/selfie.png": "/My-Portfolio/static/media/selfie.9249da993edcbf4bf597.png",
+    "static/media/resume.pdf": "/My-Portfolio/static/media/resume.62fa984981ceab0985a6.pdf",
     "static/media/nodejs.png": "/My-Portfolio/static/media/nodejs.f1d5b02e93d0b03f4c6d.png",
-    "static/media/frame.pdf": "/My-Portfolio/static/media/frame.3c3a6f26d1b90158bd22.pdf",
     "static/media/firebase.png": "/My-Portfolio/static/media/firebase.6f31ddac76d754746114.png",
     "static/media/mysqle.png": "/My-Portfolio/static/media/mysqle.7d8d571e5629923eaf74.png",
     "static/media/php.png": "/My-Portfolio/static/media/php.3fc15cf443a81ef2d0a4.png",
@@ -24,11 +24,11 @@
     "static/media/slick.ttf": "/My-Portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/My-Portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/My-Portfolio/index.html",
-    "main.49b349ea.css.map": "/My-Portfolio/static/css/main.49b349ea.css.map",
-    "main.c654c58d.js.map": "/My-Portfolio/static/js/main.c654c58d.js.map"
+    "main.c0a7eaf3.css.map": "/My-Portfolio/static/css/main.c0a7eaf3.css.map",
+    "main.5a8bc9c3.js.map": "/My-Portfolio/static/js/main.5a8bc9c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.49b349ea.css",
-    "static/js/main.c654c58d.js"
+    "static/css/main.c0a7eaf3.css",
+    "static/js/main.5a8bc9c3.js"
   ]
 }
