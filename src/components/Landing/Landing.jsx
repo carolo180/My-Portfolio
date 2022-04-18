@@ -43,10 +43,10 @@ const Landing = () => {
           ".hide",
           {
             opacity:1,
-            duration:1.3,
+            duration:2,
             ease:"power3.inOut",
           },
-          1.5
+          2.3
         );
         },[]);
   return (

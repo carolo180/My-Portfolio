@@ -20,7 +20,7 @@
     background-size: 100%;
     background-position: 50% 28%;
     background-repeat: no-repeat;
-    border-image-source: linear-gradient(to left, #d92afc, #9a03ff);
+    border-image-source: linear-gradient(to left, #fc57f9, #8600df);
     border-style: solid;
     border-width: 5px;
     border-image-slice: 30%;
@@ -75,27 +75,31 @@
   }
   .socialicon{
     color: #f3c892;
-    font-size: 2rem;
+   background-color: transparent;
     margin-right: 1rem;
     cursor: pointer;
-    animation: float 5s ease-in-out infinite;
+    animation: float 3s ease-in-out infinite;
   }
+   
   @keyframes float{
     0%{
       transform: translateY(0);
     }
    50%{
-      transform: translateY(-15px);
+      transform: translateY(-20px);
     }
     100%{
       transform: translateY(0);
     }
   }
   .line{
-     animation-delay: 1s;
+     animation-delay: 1.5s;
+     font-size: 2rem;
   }
+
   .circle-line{
     animation-delay: 2s;
+    font-size: 1.8rem;
  }
   .socialmedia{
     display: flex;
@@ -134,8 +138,7 @@
      }
    
     .socialicon{
-     
-      font-size: 1.5rem;
+      
       margin-right: 1rem;
     }
     .socialmedia{

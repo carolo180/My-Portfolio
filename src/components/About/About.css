@@ -39,7 +39,7 @@
 #text-shadow{
   color: #f092f3;
   font-size: 2rem;
-  min-height: 8rem;
+  min-height: 5rem;
  display: flex;
  align-items: flex-end;
  justify-content: center;
@@ -50,6 +50,7 @@
   border-style: solid;
   border-width: 3px;
   border-image-slice: 30%;
+  
 }
 #cvbutton:hover{
     box-shadow: 0 0 1px #de4be0, 0 0 1px #de4be0, 0 0 2px #de4be0, 0 0 40px #de4be0;

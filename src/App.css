@@ -11,3 +11,13 @@ body{
   font-family: "poppins", sans-serif;
   background: #1B001C;
 }
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  border-radius: 100vh;
+  background: #1f2937;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(rgb(118, 239, 250), rgb(78, 49, 204));
+}

@@ -47,7 +47,7 @@ const Footer = () => {
                         <div className="container">
                               <div className="box_form bg_1">
                                     <div className="titnormal">
-                                        <h1 className="titleform"> Contact me </h1>
+                                        <h1 className="titleform"> Let's Talk!</h1>
                                     </div> 
                                     <div className="sectform">
                                     <div id="campoNom" className="col-3 input-effect">
