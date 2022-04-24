@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.c0a7eaf3.css",
-    "main.js": "/My-Portfolio/static/js/main.5a8bc9c3.js",
+    "main.css": "/My-Portfolio/static/css/main.c525f6a7.css",
+    "main.js": "/My-Portfolio/static/js/main.3e27ab4a.js",
     "static/media/apicovid.mp4": "/My-Portfolio/static/media/apicovid.1a5331232929e45f5369.mp4",
+    "static/media/rickapi.mp4": "/My-Portfolio/static/media/rickapi.3352fd8a623dca4f3358.mp4",
     "static/media/logos.png": "/My-Portfolio/static/media/logos.040ba9f9b2b3cc612adf.png",
     "static/media/fortaleza.mp4": "/My-Portfolio/static/media/fortaleza.fa7eab18d1aaa6c48a83.mp4",
     "static/media/crud.mp4": "/My-Portfolio/static/media/crud.e209e7b0a530c534a766.mp4",
@@ -10,7 +11,7 @@
     "static/media/segoesc.ttf": "/My-Portfolio/static/media/segoesc.d41101786803c9bb5029.ttf",
     "static/media/react.png": "/My-Portfolio/static/media/react.283f9f863581bb226e65.png",
     "static/media/selfie.png": "/My-Portfolio/static/media/selfie.9249da993edcbf4bf597.png",
-    "static/media/resume.pdf": "/My-Portfolio/static/media/resume.62fa984981ceab0985a6.pdf",
+    "static/media/cv.pdf": "/My-Portfolio/static/media/cv.8fafbf489c78577068bc.pdf",
     "static/media/nodejs.png": "/My-Portfolio/static/media/nodejs.f1d5b02e93d0b03f4c6d.png",
     "static/media/firebase.png": "/My-Portfolio/static/media/firebase.6f31ddac76d754746114.png",
     "static/media/mysqle.png": "/My-Portfolio/static/media/mysqle.7d8d571e5629923eaf74.png",
@@ -24,11 +25,11 @@
     "static/media/slick.ttf": "/My-Portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/My-Portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/My-Portfolio/index.html",
-    "main.c0a7eaf3.css.map": "/My-Portfolio/static/css/main.c0a7eaf3.css.map",
-    "main.5a8bc9c3.js.map": "/My-Portfolio/static/js/main.5a8bc9c3.js.map"
+    "main.c525f6a7.css.map": "/My-Portfolio/static/css/main.c525f6a7.css.map",
+    "main.3e27ab4a.js.map": "/My-Portfolio/static/js/main.3e27ab4a.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0a7eaf3.css",
-    "static/js/main.5a8bc9c3.js"
+    "static/css/main.c525f6a7.css",
+    "static/js/main.3e27ab4a.js"
   ]
 }
