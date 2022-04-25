@@ -26,14 +26,11 @@ const About = () => {
           <h1 className='text-4xl font-bold text-center' id="text-shadow">Hello, I am Carolina</h1><br></br>
           <p className='text-lg text-justify text-silver md:pl-4 pt-0'>
              I am a development lover, my passion is solving problems using design and code.
-             I started on this knowledge path for fun, and I have already done very cool projects;
-             Althought i dont like describe myself by the work i have done,
-             i prefer define myself by the work i want to do,
-             that's why I thrilled to find a great team that I can learn from, 
-             that allows me to bring all my ideas and knowledge, and interact with new tools and
-              learn new skills,
-             i prefer to keep learning, continue challenging myself,
-             and do interesting things that matters.</p>
+             I started on this knowledge path for fun and now I feel complete in to it;
+             Althought I have already done very cool projects, I dont like describe myself by the work i have done,
+             I prefer define myself by the work i want to do, I prefer to keep learning, continue challenging myself,
+             and do interesting things that matters; that's why I am thrilled to find a great team that I can learn from, 
+             and allows me to bring all my ideas and knowledge to contribute.</p>
            
           <div className='grid grid-cols-3 mt-10 pl-10 max-h-8 md:flex md:justify-between' >
                   <img src={css} width="35px" />

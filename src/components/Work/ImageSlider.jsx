@@ -63,6 +63,30 @@ const ImageSlider = () => {
     <div className='contain-carousel'>
      
         <Slider {...settings} className='carrusel_item'>
+        <div className="card-wrapper">
+                <div className="card">
+                    <div className="card-image">
+                        <ReactPlayer
+                            url={video5}
+                            className='react-player'
+                            playing
+                            loop
+                            muted
+                            width='100%'
+                            height='100%'
+                        />
+                      <div className='smooth'>smootefect</div>
+                   </div>
+                    <ul className="buttons-icons">
+                       <li><a target='_blank' href="https://carolo180.github.io/IPS-Misalud-React/">Go to deploy <span className='invisible'>-</span> <CgWebsite/></a></li>
+                       <li><a target='_blank' href="https://github.com/carolo180/IPS-Misalud-React.git">Go to code <span className='invisible'>-</span> <BsGithub/></a></li>
+                    </ul>
+                    <div className="details">
+                        <h2>Api Rick and Morthy<span className="job-title"> Consuming "The Rick And Morthy Api", Made with React js.</span></h2>
+                    </div>
+                </div>
+            </div>
+
             <div className="card-wrapper">
                 <div className="card">
                     <div className="card-image">
@@ -87,30 +111,7 @@ const ImageSlider = () => {
                     </div>
                 </div>
             </div>
-            <div className="card-wrapper">
-                <div className="card">
-                    <div className="card-image">
-                        <ReactPlayer
-                            url={video5}
-                            className='react-player'
-                            playing
-                            loop
-                            muted
-                            width='100%'
-                            height='100%'
-                        />
-                      <div className='smooth'>smootefect</div>
-                   </div>
-                    <ul className="buttons-icons">
-                       <li><a target='_blank' href="https://carolo180.github.io/IPS-Misalud-React/">Go to deploy <span className='invisible'>-</span> <CgWebsite/></a></li>
-                       <li><a target='_blank' href="https://github.com/carolo180/IPS-Misalud-React.git">Go to code <span className='invisible'>-</span> <BsGithub/></a></li>
-                    </ul>
-                    <div className="details">
-                        <h2>Api Rick and Morthy<span className="job-title">Crud registry of vaccinated 
-                        patients on health entity, made with React and Firebase</span></h2>
-                    </div>
-                </div>
-            </div>
+          
             <div className="card-wrapper">
                 <div className="card">
                     <div className="card-image">

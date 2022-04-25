@@ -77,8 +77,7 @@ const Footer = () => {
                                 </div> 
                                     </div>
                                  
-                                
-                                
+                                                
             
                                 <div id="campoCelu" className="col-3 input-effect">
                                       <input className="effect-16"
