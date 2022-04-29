@@ -78,8 +78,8 @@ const ImageSlider = () => {
                       <div className='smooth'>smootefect</div>
                    </div>
                     <ul className="buttons-icons">
-                       <li><a target='_blank' href="https://carolo180.github.io/IPS-Misalud-React/">Go to deploy <span className='invisible'>-</span> <CgWebsite/></a></li>
-                       <li><a target='_blank' href="https://github.com/carolo180/IPS-Misalud-React.git">Go to code <span className='invisible'>-</span> <BsGithub/></a></li>
+                       <li><a target='_blank' href="https://apirickandmortyproject.netlify.app/">Go to deploy <span className='invisible'>-</span> <CgWebsite/></a></li>
+                       <li><a target='_blank' href="https://github.com/dianachavezr/ApiRickAndMorty">Go to code <span className='invisible'>-</span> <BsGithub/></a></li>
                     </ul>
                     <div className="details">
                         <h2>Api Rick and Morthy<span className="job-title"> Consuming "The Rick And Morthy Api", Made with React js.</span></h2>
@@ -106,7 +106,7 @@ const ImageSlider = () => {
                        <li><a target='_blank' href="https://github.com/carolo180/La-fortaleza-E-commerce.git">Go to code <span className='invisible'>-</span> <BsGithub/></a></li>
                     </ul>
                     <div className="details">
-                        <h2>E-COMMERCE WEBSITE<span className="job-title">Made with React and Redux</span></h2>
+                        <h2>E-COMMERCE WEBSITE STORE<span className="job-title">Made with React and Redux</span></h2>
                        
                     </div>
                 </div>
@@ -186,6 +186,8 @@ const ImageSlider = () => {
                     </div>
                 </div>
             </div>
+
+            
          
        </Slider>
    

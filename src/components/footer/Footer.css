@@ -103,7 +103,7 @@ input[type="text"][type="number"]{
 #boton_enviar{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 5vh;
+    margin-top: 0vh;
     flex-direction: column;
   }
 #boton_enviar button{
