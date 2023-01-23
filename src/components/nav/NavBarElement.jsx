@@ -3,20 +3,20 @@ import styled from "styled-components";
 export const NavBarContainer = styled.div`
        height: 70px;
        position:fixed;
-       top:0;
+       top:10px;
        z-index:999;
        background: transparent;
        width: 100vw;
 
        @media screen and (max-width:960px){
         height: 11%;
-        background: #7a3030;
+        background: #7a3041;
+        top:0;
        }
 `;
 export const NavBarWrapper = styled.div`
        margin:auto;
        width: 100%;
-       max-width:1300px;
        height: 100%;
        display:flex;
        flex-wrap:wrap;
@@ -31,7 +31,7 @@ export const NavLogo = styled.div`
         grid-column-start: 1;
         display: flex;
         flex-direction: column;
-        width: 40%;
+        width: 50%;
         height:100%;
         text-align: center;
         padding-top: 0.5rem;

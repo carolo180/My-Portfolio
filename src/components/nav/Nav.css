@@ -6,22 +6,22 @@
     }
 
 .name{
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-weight: 500;
-    color: #fde1be;
+    color: #fff0de;
     font-family:"segoesc"; 
     padding-top: 5px;
     width: 25vw;
     text-align: center;
   }
 .slogan{
-  color: #fde1be;
+  color: #fff0de;
   font-size: 0.7rem;
   width: 25vw;
  }
  .navlink {
     display: inline-block;
-    color: #fde1be;
+    color: #fff0de;
     font-weight: 500;
  }
   .navlink:hover {
@@ -35,13 +35,17 @@
 }
 
  @media screen and (max-width:700px){
+  .navlink {
+   font-size: 1.1rem;
+ }
   .name{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     text-align: center;
     width: 60vw;
    }
   .slogan{
     text-align: center;
     width: 60vw;
+    font-size: 0.6rem;
   }
 }

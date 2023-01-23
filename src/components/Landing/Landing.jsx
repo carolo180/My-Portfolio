@@ -56,7 +56,7 @@ const Landing = () => {
     </div>
     
     <h1 className="bigname"><span className="by">By..</span><br></br><span className="nombre">Carolina Loaiza</span></h1>
-    <span className="scroll hide"></span>
+  
   
      <div className='box hide'>
        <p className="full">Full Stack Developer<span className="city">Bogotá-Colombia</span></p>
