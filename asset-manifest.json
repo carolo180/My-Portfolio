@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.a1ee5e85.css",
-    "main.js": "/My-Portfolio/static/js/main.f700d9d8.js",
+    "main.css": "/My-Portfolio/static/css/main.d5b97be1.css",
+    "main.js": "/My-Portfolio/static/js/main.effe3867.js",
     "static/media/rickapi.mp4": "/My-Portfolio/static/media/rickapi.af5386e531432ecd83f3.mp4",
     "static/media/apicovid.mp4": "/My-Portfolio/static/media/apicovid.1a5331232929e45f5369.mp4",
     "static/media/logos.png": "/My-Portfolio/static/media/logos.040ba9f9b2b3cc612adf.png",
-    "static/media/cv.pdf": "/My-Portfolio/static/media/cv.bb20d5dfd058cfe7231e.pdf",
+    "static/media/cv.pdf": "/My-Portfolio/static/media/cv.2c6bf2d0227acea17949.pdf",
     "static/media/fortaleza.mp4": "/My-Portfolio/static/media/fortaleza.fa7eab18d1aaa6c48a83.mp4",
     "static/media/crud.mp4": "/My-Portfolio/static/media/crud.e209e7b0a530c534a766.mp4",
     "static/media/firebasecrud.mp4": "/My-Portfolio/static/media/firebasecrud.75a557970665b6de6c02.mp4",
@@ -25,11 +25,11 @@
     "static/media/slick.ttf": "/My-Portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/My-Portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/My-Portfolio/index.html",
-    "main.a1ee5e85.css.map": "/My-Portfolio/static/css/main.a1ee5e85.css.map",
-    "main.f700d9d8.js.map": "/My-Portfolio/static/js/main.f700d9d8.js.map"
+    "main.d5b97be1.css.map": "/My-Portfolio/static/css/main.d5b97be1.css.map",
+    "main.effe3867.js.map": "/My-Portfolio/static/js/main.effe3867.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1ee5e85.css",
-    "static/js/main.f700d9d8.js"
+    "static/css/main.d5b97be1.css",
+    "static/js/main.effe3867.js"
   ]
 }
