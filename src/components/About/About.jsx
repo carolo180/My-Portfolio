@@ -8,8 +8,8 @@ import php from "../../assets/images/php.png"
 import mongo from "../../assets/images/mongo.png"
 import node from "../../assets/images/nodejs.png"
 import redux from "../../assets/images/redux.png"
-import firebase from "../../assets/images/firebase.png"
-import cv from "../../assets/images/cv.pdf"
+import wordpress from "../../assets/images/wordpress.png"
+import cv from "../../assets/images/cv-Carolina-Loaiza.pdf"
 import { GiCloudDownload } from 'react-icons/gi';
 
 import "./About.css"
@@ -33,16 +33,13 @@ const About = () => {
              and which allows me to contribute all my ideas and knowledge.</p>
     
           <div className='grid grid-cols-3 mt-10 pl-10 max-h-8 md:flex md:justify-between' >
-            
-                  <img src={css} width="35px" />
                   <img src={js} width="35px" />
                   <img src={react} width="40px" />
                   <img src={node} width="35px" className='pt-8 md:pt-0' />
                   <img src={redux} width="40px" className='pt-8 md:pt-0' />
                   <img src={sql} width="40px" className='pt-8 md:pt-0' />
-                  <img src={firebase} width="40px" className='pt-8 md:pt-0' />
+                  <img src={wordpress} width="40px" className='pt-8 md:pt-0' />
                   <img src={php} width="43px" className='pt-8 md:pt-0' />
-                  <img src={mongo} width="45px" className='pt-8 md:pt-0' />
             </div>
        </article>
 

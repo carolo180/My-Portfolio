@@ -36,7 +36,6 @@
     position: relative;
     z-index: 1;
     transform: translateY(1000px);
-    padding: 5%;
     margin-top: 80%;
   }
   .by{
@@ -72,7 +71,7 @@
     animation: float 3s ease-in-out infinite;
   }
    
-  @keyframes float{
+  /*@keyframes float{
     0%{
       transform: translateY(0);
     }
@@ -83,6 +82,7 @@
       transform: translateY(0);
     }
   }
+  */
   .line{
      animation-delay: 1.5s;
      font-size: 2rem;
@@ -95,6 +95,16 @@
   .socialmedia{
     display: flex;
   }
+  .socialmedia li a svg{
+    cursor: pointer;
+    transition: fill 0.3s ease;
+  }
+  .socialmedia li a svg:hover{
+    cursor: pointer;
+    fill: #f092f3;
+    
+  }
+ 
   .hide{
     opacity: 0;
   }
@@ -160,7 +170,7 @@
       z-index: 1;
       transform: translateY(1000px);
       padding-top: 3%;
-      margin-top: 25%;
+      margin-top: 16%;
      }
     .by{
       font-size: 4.5rem;
@@ -196,6 +206,6 @@
       color: #fff7ee;
       font-size: 7rem;
       font-weight: 500;
-       margin-top: 20%;
+       margin-top: 18%;
      }
   }
