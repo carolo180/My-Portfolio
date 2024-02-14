@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.46ed3b6f.css",
-    "main.js": "/My-Portfolio/static/js/main.9cdd4404.js",
+    "main.css": "/My-Portfolio/static/css/main.b3d5f1b2.css",
+    "main.js": "/My-Portfolio/static/js/main.f9750137.js",
     "reactPlayerYouTube.js": "/My-Portfolio/static/js/reactPlayerYouTube.24aec7cf.chunk.js",
     "reactPlayerSoundCloud.js": "/My-Portfolio/static/js/reactPlayerSoundCloud.b9b84c42.chunk.js",
     "reactPlayerVimeo.js": "/My-Portfolio/static/js/reactPlayerVimeo.b8e3f947.chunk.js",
@@ -27,20 +27,20 @@
     "static/media/selfie.png": "/My-Portfolio/static/media/selfie.9249da993edcbf4bf597.png",
     "static/media/nodejs.png": "/My-Portfolio/static/media/nodejs.f1d5b02e93d0b03f4c6d.png",
     "static/media/firebase.png": "/My-Portfolio/static/media/firebase.6f31ddac76d754746114.png",
+    "static/media/Vectores.png": "/My-Portfolio/static/media/Vectores.426649e773a99a97569b.png",
     "static/media/wordpress.png": "/My-Portfolio/static/media/wordpress.058093cec03591c0dc05.png",
     "static/media/mysqle.png": "/My-Portfolio/static/media/mysqle.7d8d571e5629923eaf74.png",
     "static/media/php.png": "/My-Portfolio/static/media/php.3fc15cf443a81ef2d0a4.png",
     "static/media/redux.png": "/My-Portfolio/static/media/redux.b3b939c66aecf7d53967.png",
     "static/media/css-3.png": "/My-Portfolio/static/media/css-3.463e319bad8e0edf1ef7.png",
     "static/media/js.png": "/My-Portfolio/static/media/js.3dfb665e058d08c99f28.png",
-    "static/media/waves.svg": "/My-Portfolio/static/media/waves.b745bebb43a29bdbf1e0e145ffef08b7.svg",
     "static/media/slick.svg": "/My-Portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/My-Portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/My-Portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/My-Portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/My-Portfolio/index.html",
-    "main.46ed3b6f.css.map": "/My-Portfolio/static/css/main.46ed3b6f.css.map",
-    "main.9cdd4404.js.map": "/My-Portfolio/static/js/main.9cdd4404.js.map",
+    "main.b3d5f1b2.css.map": "/My-Portfolio/static/css/main.b3d5f1b2.css.map",
+    "main.f9750137.js.map": "/My-Portfolio/static/js/main.f9750137.js.map",
     "reactPlayerYouTube.24aec7cf.chunk.js.map": "/My-Portfolio/static/js/reactPlayerYouTube.24aec7cf.chunk.js.map",
     "reactPlayerSoundCloud.b9b84c42.chunk.js.map": "/My-Portfolio/static/js/reactPlayerSoundCloud.b9b84c42.chunk.js.map",
     "reactPlayerVimeo.b8e3f947.chunk.js.map": "/My-Portfolio/static/js/reactPlayerVimeo.b8e3f947.chunk.js.map",
@@ -56,7 +56,7 @@
     "reactPlayerPreview.7965b3c6.chunk.js.map": "/My-Portfolio/static/js/reactPlayerPreview.7965b3c6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.46ed3b6f.css",
-    "static/js/main.9cdd4404.js"
+    "static/css/main.b3d5f1b2.css",
+    "static/js/main.f9750137.js"
   ]
 }
