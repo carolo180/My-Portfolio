@@ -5,7 +5,6 @@ import js from "../../assets/images/js.png"
 import react from "../../assets/images/react.png"
 import sql from "../../assets/images/mysqle.png"
 import php from "../../assets/images/php.png"
-import mongo from "../../assets/images/mongo.png"
 import node from "../../assets/images/nodejs.png"
 import redux from "../../assets/images/redux.png"
 import wordpress from "../../assets/images/wordpress.png"
@@ -20,9 +19,9 @@ const About = () => {
     <div className='About'>
        
     
-         <div className='flex flex-col md:flex-row md:h-screen bg-[#1B001C]'>
+       <div className='flex flex-col justify-center md:flex-row md:h-screen bg-[#1B001C]'>
            
-       <article className='flex flex-col justify-center content-center px-8 mt-16 md:mt-0 md:pl-10 md:w-7/12' id="sect">
+       <article className='flex flex-col justify-center content-center px-8 mt-16 md:mt-0 md:pl-12 md:w-6/12' id="sect">
           <h1 className='text-4xl text-center' id="text-shadow">Hello, I am Carolina</h1><br></br>
           <p className='text-lg text-justify text-silver md:pl-4 pt-0'>
              I am a development lover, my passion is solving problems using design and code.

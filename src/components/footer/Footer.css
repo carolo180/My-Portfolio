@@ -142,6 +142,9 @@ input[type="text"][type="number"]{
     text-align: center;
      width: 100%;
 }
+.mahi_holder {
+    width: 70%;
+}
 
 @media only screen and (min-width: 630px) {
     form{
